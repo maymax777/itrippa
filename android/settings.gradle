@@ -1,0 +1,3 @@
+rootProject.name = 'itrippa'
+
+include ':app'
