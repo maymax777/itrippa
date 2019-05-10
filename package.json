@@ -7,18 +7,35 @@
     "test": "jest"
   },
   "dependencies": {
+    "native-base": "^2.12.1",
     "react": "16.8.3",
-    "react-native": "0.59.5"
+    "react-native": "0.59.5",
+    "react-native-elements": "^1.1.0",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-paper": "^2.15.2",
+    "react-native-rem-stylesheet": "^0.1.0",
+    "react-native-responsive-screen": "^1.2.2",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-svg": "^9.4.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.9.1",
+    "react-navigation-transitions": "^1.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/runtime": "^7.4.4",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
-    "metro-react-native-babel-preset": "^0.53.1",
+    "metro-react-native-babel-preset": "^0.54.0",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/font/"
+    ]
   }
 }
